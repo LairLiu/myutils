@@ -1,0 +1,23 @@
+{
+  "name": "myutils_project",
+  "version": "1.0.0",
+  "description": "myutils_lka_project",
+  "main": "./build/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lair_lka",
+  "license": "ISC",
+  "repository": {
+    "url": "git+https://github.com/LairLiu/myutils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LairLiu/myutils/issues"
+  },
+  "homepage": "https://github.com/LairLiu/myutils#readme",
+  "dependencies": {
+    "_typescript@2.6.2@typescript": "^2.6.2",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {}
+}
