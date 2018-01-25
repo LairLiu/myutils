@@ -1,4 +1,3 @@
-"use strict";
 var lka;
 (function (lka) {
     /**
@@ -19,7 +18,7 @@ var lka;
          */
         static isWeixin() {
             var ua = navigator.userAgent.toLowerCase();
-            if (ua.match(/MicroMessenger/i) == "micromessenger") {
+            if (String(ua.match(/MicroMessenger/i)) == "micromessenger") {
                 return true;
             }
             else {

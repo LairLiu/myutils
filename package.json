@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "lair_lka",
+  "author": "lka",
   "license": "ISC",
   "repository": {
     "url": "git+https://github.com/LairLiu/myutils.git"
@@ -19,5 +19,6 @@
     "_typescript@2.6.2@typescript": "^2.6.2",
     "typescript": "^2.6.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "keywords": []
 }
