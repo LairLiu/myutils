@@ -1,3 +1,4 @@
+"use strict";
 var lka;
 (function (lka) {
     /**

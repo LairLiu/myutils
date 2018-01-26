@@ -124,7 +124,7 @@ module lka {
             jsmpeg.type = "text/javascript";
             jsmpeg.src = jsSrc || "./src/lka/media/jsmpeg.min.js";
             document.body.appendChild(jsmpeg);
-
+            
             // 设置初始值
             this.videoSrc = videoSrc;
             this.top = top || "0";
@@ -159,7 +159,7 @@ module lka {
 
             // 判断是否为微信环境，如果是则设置为H5同层播放器
             // 相关参数在media/H5同层播放器接入规范_20170117.pdf中查看
-            if (lka.system.isWeixin()) {
+            if (lka.system.isWeixin) {
                 video1.setAttribute("webkit-playsinline", "true");
                 video1.setAttribute("playsinline", "true");
                 video1.setAttribute("preload", "auto");
@@ -186,7 +186,7 @@ module lka {
         private createAndroidVideo() {
 
             // 如果非微信环境则创建video标签，否则则创建canvas标签
-            if (!lka.system.isWeixin()) {
+            if (!lka.system.isWeixin) {
                 this.createIosVideo();
                 return;
             }

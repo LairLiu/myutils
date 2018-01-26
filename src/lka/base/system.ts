@@ -15,7 +15,7 @@ module lka {
          * @returns {boolean} 返回是否是微信环境
          * @memberof system
          */
-        public static isWeixin(): boolean {
+        public static get isWeixin(): boolean {
             var ua = navigator.userAgent.toLowerCase();
             if (String(ua.match(/MicroMessenger/i)) == "micromessenger") {
                 return true;
@@ -23,6 +23,7 @@ module lka {
                 return false;
             }
         }
+        
         /**
          * 判断设备系统是否是IOS
          * 
